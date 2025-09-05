@@ -15,11 +15,10 @@
          </div>
          <div class="navbar__menu">
             <ul class="navbar__row">
-               <li class="navbar__item"><a href="#aboutme" class="navbar__link">Strengths</a></li>
-               <li class="navbar__item"><a href="#aboutme" class="navbar__link">About Me</a></li>
+               <li class="navbar__item"><a href="#strengths" class="navbar__link">Strengths</a></li>
                <li class="navbar__item"><a href="#skills" class="navbar__link">Skills</a></li>
                <li class="navbar__item"><a href="#projects" class="navbar__link">Projects</a></li>
-               <li class="navbar__item"><a href="#projects" class="navbar__link">Achievements</a></li>
+               <li class="navbar__item"><a href="#achievements" class="navbar__link">Achievements</a></li>
             </ul>
          </div>
          <a href="#" class="navbar__button">Contact Me</a>
@@ -36,47 +35,90 @@
             </div>
          </div>
          <div class="header__image">
-            <img src="img/overview/profile_picture.jpg" alt="Profile Picture">
+            <img src="img/header/profile_picture.jpg" alt="Profile Picture">
          </div>
       </header>
       <!-- Strengths Section -->
-      <div class="strengths">
-         <div class="strengths__header">
-            <h2 class="strengths__title">My Strengths</h2>
+      <section id="strengths">
+         <div class="strengths">
+            <h2 class="strengths__title title">My Strengths</h2>
+            <div class="strengths__row">
+               <div class="strengths__item">
+                  <img src="img/strengths/adaptability.png" alt="Adaptability Icon" class="strengths__icon">
+                  <h3 class="strengths__subtitle">Adaptability</h3>
+                  <p class="strengths__description">Quick to learn new technologies and adapt to changing environments. Lorem ipsum dolor sit amet consectetur adipisicing elit. assumenda corrupti alias aut est molestiae eligendi quam! Officia neque asperiores molestias expedita illum qui saepe minima!</p>
+               </div>
+               <div class="strengths__item">
+                  <img src="img/strengths/reliability.png" alt="Reliability Icon" class="strengths__icon">
+                  <h3 class="strengths__subtitle">Reliability</h3>
+                  <p class="strengths__description">Consistently meets deadlines and delivers high-quality work. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, tempora animi id ab assumenda corrupti alias aut est molestiae eligendi quam! Officia neque asperiores molestias expedita illum qui saepe minima!</p>
+               </div>
+               <div class="strengths__item">
+                  <img src="img/strengths/computer.png" alt="Good at computers and numbers Icon" class="strengths__icon">
+                  <h3 class="strengths__subtitle">Good at computers and numbers</h3>
+                  <p class="strengths__description">Adept at analyzing complex problems and devising effective solutions. Lorem ipsum dolor sit amet consectetur adipisicing elit. quam! Officia neque asperiores molestias expedita illum qui saepe minima!</p>
+               </div>
+            </div>
          </div>
-         <div class="strengths__row">
-            <div class="strengths__item">
-               <img src="img/strengths/adaptability.png" alt="Adaptability Icon" class="strengths__icon">
-               <h3 class="strengths__subtitle">Adaptability</h3>
-               <p class="strengths__description">Quick to learn new technologies and adapt to changing environments. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, tempora animi id ab assumenda corrupti alias aut est molestiae eligendi quam! Officia neque asperiores molestias expedita illum qui saepe minima!</p>
-            </div>
-            <div class="strengths__item">
-               <img src="img/strengths/reliability.png" alt="Reliability Icon" class="strengths__icon">
-               <h3 class="strengths__subtitle">Reliability</h3>
-               <p class="strengths__description">Consistently meets deadlines and delivers high-quality work. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, tempora animi id ab assumenda corrupti alias aut est molestiae eligendi quam! Officia neque asperiores molestias expedita illum qui saepe minima!</p>
-            </div>
-            <div class="strengths__item">
-               <img src="img/strengths/computer.png" alt="Good at computers and numbers Icon" class="strengths__icon">
-               <h3 class="strengths__subtitle">Good at computers and numbers</h3>
-               <p class="strengths__description">Adept at analyzing complex problems and devising effective solutions. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, tempora animi id ab assumenda corrupti alias aut est molestiae eligendi quam! Officia neque asperiores molestias expedita illum qui saepe minima!</p>
-            </div>
-         </div>
-      </div>
+      </section>
       <!-- Skills Section -->
-      <div class="skills">
-         <div class="skills__header">
-            <h2 class="skills__title">My Tech Stack</h2>
+      <section id="skills">
+         <div class="skills">
+            <h2 class="skills__title title">My Tech Stack</h2>
+            <div class="skills__row">
+               <div class="skills__item html"></div>
+               <div class="skills__item css"></div>
+               <div class="skills__item sass"></div>
+               <div class="skills__item javascript"></div>
+               <div class="skills__item python"></div>
+               <div class="skills__item github"></div>
+               <div class="skills__item vscode"></div>
+            </div>
          </div>
-         <div class="skills__row">
-            <div class="skills__item">HTML</div>
-            <div class="skills__item">CSS</div>
-            <div class="skills__item">JavaScript</div>
-            <div class="skills__item">React</div>
-            <div class="skills__item">Node.js</div>
-            <div class="skills__item">Python</div>
-            <div class="skills__item">Django</div>
-            <div class="skills__item">SQL</div>
-      </div>
+      </section>
+      <!-- Projects Section -->
+      <section id="projects">
+         <div class="projects">
+            <div class="projects__header">
+               <h2 class="projects__title title">My Projects</h2>
+               <div class="projects__subtitle">A showcase of both private and open-source projects I've built or contributed to.</div>
+               <div class="projects__divider">- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</div>
+            </div>
+            <div class="projects__row">
+               <div class="projects__item">
+                  <div class="projects__image"></div>
+                  <h3 class="projects__name">Portfolio Site</h3>
+                  <p class="projects__description">A personal portfolio website showcasing my work and skills.</p>
+                  <div class="projects__cards techstack">
+                     <div class="techstack__item-html"></div>
+                     <div class="techstack__item-css"></div>
+                     <div class="techstack__item-javascript"></div>
+                     <div class="techstack__item-sass"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Achievements Section -->
+      <!-- <section id="achievements">
+         <div class="achievements">
+            <h2 class="achievements__title title">My Achievements</h2>
+            <div class="achievements__row">
+               <div class="achievements__item">
+                  <h3 class="achievements__subtitle">Completed ADA Bootcamp</h3>
+                  <p class="achievements__description">Successfully completed an intensive coding bootcamp, gaining hands-on experience in web development and programming languages.</p>
+               </div>
+               <div class="achievements__item">
+                  <h3 class="achievements__subtitle">Open Source Contributor</h3>
+                  <p class="achievements__description">Contributed to several open-source projects on GitHub, enhancing my coding skills and collaborating with the developer community.</p>
+               </div>
+               <div class="achievements__item">
+                  <h3 class="achievements__subtitle">Hackathon Winner</h3>
+                  <p class="achievements__description">Won first place in a local hackathon by developing an innovative solution to a real-world problem within a limited timeframe.</p>
+               </div>
+            </div>
+         </div>
+      </section> -->
    </div>
 </body>
 </html>
