@@ -78,8 +78,9 @@ html {
 body {
   font-family: "Geist", sans-serif;
   font-size: 18px;
-  background-color: #000;
+  background-color: #1c1b21;
   color: #b4b4b4;
+  color-scheme: dark;
 }
 
 a {
@@ -101,7 +102,7 @@ a {
 .navbar {
   position: sticky;
   top: 0;
-  background-color: #000;
+  background-color: #0f0f0f;
   padding: 10px;
   border-radius: 15px;
   -webkit-box-shadow: 0 0 5px rgba(255, 255, 255, 0.4392156863);
@@ -189,7 +190,7 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 120px 0 0 0;
+  margin: 120px 0 25px 0;
 }
 .header__info {
   max-width: 600px;
@@ -237,7 +238,7 @@ a {
 }
 .header__button-black {
   font-weight: 500;
-  background-color: #000;
+  background-color: #0f0f0f;
   color: #fff;
   border: 1px solid rgba(124, 124, 124, 0.5411764706);
   border-radius: 25px;
@@ -269,7 +270,7 @@ a {
 }
 
 .strengths {
-  margin: 200px 0;
+  padding: 200px 0 0 0;
   text-align: center;
 }
 .strengths__title {
@@ -287,6 +288,7 @@ a {
 .strengths__item {
   height: 400px;
   width: 400px;
+  background: #0f0f0f;
   border: 1px solid rgba(124, 124, 124, 0.5411764706);
   -webkit-box-shadow: 0 0 5px rgba(255, 255, 255, 0.4392156863);
           box-shadow: 0 0 5px rgba(255, 255, 255, 0.4392156863);
@@ -310,7 +312,8 @@ a {
 }
 
 .skills {
-  margin: 250px 0;
+  margin: 0 0 300px 0;
+  padding: 330px 0 0 0;
   text-align: center;
 }
 .skills__title {
@@ -361,6 +364,10 @@ a {
   background: url(../img/skills/vscode-icon.png) center/85px no-repeat;
 }
 
+.projects {
+  padding: 150px 0 0 0;
+  margin: 0 0 100px 0;
+}
 .projects__header {
   text-align: center;
 }
@@ -385,6 +392,7 @@ a {
 }
 .projects__item {
   width: 600px;
+  background: #0f0f0f;
   border: 1px solid rgba(124, 124, 124, 0.5411764706);
   -webkit-box-shadow: 0 0 5px rgba(255, 255, 255, 0.4392156863);
           box-shadow: 0 0 5px rgba(255, 255, 255, 0.4392156863);
@@ -439,4 +447,84 @@ a {
   background: url(../img/skills/sass-icon.png) 0 5px/40px no-repeat;
   width: 50px;
   height: 50px;
+}
+
+.achievements {
+  text-align: center;
+  padding: 100px 0 0 0;
+  height: 800px;
+}
+.achievements__title {
+  margin: 0 0 20px 0;
+}
+.achievements__subtitle {
+  margin: 20px 0 20px 0;
+}
+.achievements__divider {
+  margin: 20px 0 30px 0;
+}
+.achievements__row {
+  max-width: 1300px;
+  margin: 10px auto 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.achievements__item {
+  max-width: 300px;
+  height: 400px;
+  border-radius: 15px;
+  text-align: left;
+  background: #131313;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid rgb(43, 43, 43);
+}
+.achievements__item::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  -webkit-transition: background 0.4s ease;
+  transition: background 0.4s ease;
+  background: transparent;
+}
+.achievements__item:hover::after {
+  content: "Show Credentials " url(../img/achievements/arrow2.png);
+  color: #fff;
+  text-align: center;
+  vertical-align: baseline;
+  font-weight: 500;
+  padding: 80px 0 0 0;
+  background: rgba(0, 0, 0, 0.6431372549);
+}
+.achievements__certificate {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 0 0 20px 0;
+}
+.achievements__description {
+  padding: 20px 15px 0;
+}
+.achievements__name {
+  font-size: 18px;
+  color: white;
+  margin: 0 0 20px 0;
+}
+.achievements__place {
+  margin: 0 0 15px 0;
+  font-size: 16px;
+}
+.achievements__issued {
+  margin: 0 0 10px 0;
+  font-size: 14px;
+}
+.achievements__date {
+  font-size: 16px;
 }

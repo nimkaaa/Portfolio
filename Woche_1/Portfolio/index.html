@@ -9,7 +9,7 @@
 <body>
    <div class="container">
       <!-- Navigation Bar -->
-      <div class="navbar">
+      <nav class="navbar">
          <div class="navbar__logo">
             <div class="navbar__brandname"><a href="#">ykyta</a></div>
          </div>
@@ -22,7 +22,7 @@
             </ul>
          </div>
          <a href="#" class="navbar__button">Contact Me</a>
-      </div>
+      </nav>
       <!-- Header Section -->
       <header class="header">
          <div class="header__info">
@@ -82,20 +82,9 @@
             <div class="projects__header">
                <h2 class="projects__title title">My Projects</h2>
                <div class="projects__subtitle">A showcase of both private and open-source projects I've built or contributed to.</div>
-               <div class="projects__divider">- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</div>
+               <div class="projects__divider">- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</div>
             </div>
             <div class="projects__row">
-               <div class="projects__item">
-                  <div class="projects__image"></div>
-                  <h3 class="projects__name">Portfolio Site</h3>
-                  <p class="projects__description">A personal portfolio website showcasing my work and skills.</p>
-                  <div class="projects__cards techstack">
-                     <div class="techstack__item-html"></div>
-                     <div class="techstack__item-css"></div>
-                     <div class="techstack__item-javascript"></div>
-                     <div class="techstack__item-sass"></div>
-                  </div>
-               </div>
                <div class="projects__item">
                   <div class="projects__image"></div>
                   <h3 class="projects__name">Portfolio Site</h3>
@@ -111,25 +100,26 @@
          </div>
       </section>
       <!-- Achievements Section -->
-      <!-- <section id="achievements">
+      <section id="achievements">
          <div class="achievements">
             <h2 class="achievements__title title">My Achievements</h2>
+            <p class="achievements__subtitle">All types of completed trainings and courses</p>
+            <div class="achievements__divider">- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</div>
             <div class="achievements__row">
-               <div class="achievements__item">
-                  <h3 class="achievements__subtitle">Completed ADA Bootcamp</h3>
-                  <p class="achievements__description">Successfully completed an intensive coding bootcamp, gaining hands-on experience in web development and programming languages.</p>
-               </div>
-               <div class="achievements__item">
-                  <h3 class="achievements__subtitle">Open Source Contributor</h3>
-                  <p class="achievements__description">Contributed to several open-source projects on GitHub, enhancing my coding skills and collaborating with the developer community.</p>
-               </div>
-               <div class="achievements__item">
-                  <h3 class="achievements__subtitle">Hackathon Winner</h3>
-                  <p class="achievements__description">Won first place in a local hackathon by developing an innovative solution to a real-world problem within a limited timeframe.</p>
-               </div>
+               <a class="achievements__certificate-link" href="#">
+                  <div class="achievements__item">
+                     <img src="img/achievements/certificate.jpg" alt="Certificate" class="achievements__certificate">
+                     <div class="achievements__description">
+                        <h3 class="achievements__name">Completed ADA Bootcamp</h3>
+                        <p class="achievements__place">ADA Bootcamp</p>
+                        <p class="achievements__issued">Issued on</p>
+                        <p class="achievements__date">September 2025</p>
+                     </div>
+                  </div>
+               </a>
             </div>
          </div>
-      </section> -->
+      </section>
    </div>
 </body>
 </html>
