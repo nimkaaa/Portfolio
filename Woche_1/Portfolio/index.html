@@ -21,7 +21,7 @@
                <li class="navbar__item"><a href="#achievements" class="navbar__link">Achievements</a></li>
             </ul>
          </div>
-         <a href="#" class="navbar__button">Contact Me</a>
+         <a href="#contacts" class="navbar__button">Contact Me</a>
       </nav>
       <!-- Header Section -->
       <header class="header">
@@ -31,7 +31,7 @@
             <p class="header__description">I am a passionate software developer with experience in building web applications and a keen interest in learning new technologies.</p>
             <div class="header__buttons">
                <a href="#" class="header__button-black">CV (pdf)</a>
-               <a href="#" class="header__button-white">Get in touch</a>
+               <a href="#contacts" class="header__button-white">Get in touch</a>
             </div>
          </div>
          <div class="header__image">
@@ -85,17 +85,20 @@
                <div class="projects__divider">- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</div>
             </div>
             <div class="projects__row">
-               <div class="projects__item">
-                  <div class="projects__image"></div>
-                  <h3 class="projects__name">Portfolio Site</h3>
-                  <p class="projects__description">A personal portfolio website showcasing my work and skills.</p>
-                  <div class="projects__cards techstack">
-                     <div class="techstack__item-html"></div>
-                     <div class="techstack__item-css"></div>
-                     <div class="techstack__item-javascript"></div>
-                     <div class="techstack__item-sass"></div>
+               <a class="projects__project-link" href="#">
+                  <div class="projects__item">
+                     <div class="projects__image"></div>
+                     <h3 class="projects__name">Portfolio Site</h3>
+                     <p class="projects__description">A personal portfolio website showcasing my work and skills.</p>
+                     <div class="projects__cards techstack">
+                        <div class="techstack__item-html"></div>
+                        <div class="techstack__item-css"></div>
+                        <div class="techstack__item-javascript"></div>
+                        <div class="techstack__item-sass"></div>
+                     </div>
+                     <p class="projects__link">Explore more</p>
                   </div>
-               </div>
+               </a>
             </div>
          </div>
       </section>
@@ -114,9 +117,40 @@
                         <p class="achievements__place">ADA Bootcamp</p>
                         <p class="achievements__issued">Issued on</p>
                         <p class="achievements__date">September 2025</p>
+                        <p class="achievements__link">Show Credentials</p>
                      </div>
                   </div>
                </a>
+            </div>
+         </div>
+      </section>
+      <!-- Contact Section -->
+      <section id="contacts" class="contacts">
+         <h2 class="contacts__title title">Contact</h2>
+         <div class="contacts__row">
+            <div class="contacts__item gmail-item">
+               <h3 class="item__title">Stay in Touch</h3>
+               <p class="item__text">Reach out via email for collaborations</p>
+               <div class="item__interractive">
+                  <a target="_blank" href="#" class="item__link">Go to Gmail</a>
+                  <img src="img/contacts/gmail-icon.svg" alt="Gmail-Icon" class="item__logo">
+               </div>
+            </div>
+            <div class="contacts__item linkedin-item">
+               <h3 class="item__title">Let's Connect</h3>
+               <p class="item__text">Connect with me professionally</p>
+               <div class="item__interractive">
+                  <a target="_blank" href="https://www.linkedin.com/in/mykyta-vasylets-754696297" class="item__link">Go to LinkedIn</a>
+                  <img src="img/contacts/linkedin-icon.svg" alt="LinkedIn-Icon" class="item__logo">
+               </div>
+            </div>
+            <div class="contacts__item github-item">
+               <h3 class="item__title">Explore the Code</h3>
+               <p class="item__text">Explore my open-source work</p>
+               <div class="item__interractive">
+                  <a target="_blank" href="https://github.com/nimkaaa" class="item__link">Go to Github</a>
+                  <img src="img/contacts/github-icon.svg" alt="Github-Icon" class="item__logo">
+               </div>
             </div>
          </div>
       </section>
