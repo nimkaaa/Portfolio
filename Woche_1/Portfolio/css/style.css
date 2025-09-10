@@ -88,6 +88,16 @@ a {
   color: inherit;
 }
 
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #0f0f0f;
+  margin-top: 50px;
+  font-size: 14px;
+  color: #7c7c7c;
+  font-weight: 500;
+}
+
 .container {
   max-width: 100%;
   padding: 0 50px;
@@ -104,9 +114,8 @@ a {
   top: 0;
   background-color: #0f0f0f;
   padding: 10px;
+  border: 1px solid rgba(124, 124, 124, 0.5411764706);
   border-radius: 15px;
-  -webkit-box-shadow: 0 0 5px rgba(255, 255, 255, 0.4392156863);
-          box-shadow: 0 0 5px rgba(255, 255, 255, 0.4392156863);
   z-index: 100;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -476,11 +485,6 @@ a {
   width: 50px;
   height: 50px;
 }
-.techstack__item-javascript {
-  background: url(../img/skills/js-icon.svg) 0 0/cover no-repeat;
-  width: 50px;
-  height: 50px;
-}
 .techstack__item-sass {
   background: url(../img/skills/sass-icon.svg) 0 0/cover no-repeat;
   width: 50px;
@@ -584,7 +588,7 @@ a {
 }
 
 .contacts {
-  padding: 90px 0 0 0;
+  padding: 90px 0 200px 0;
   text-align: center;
   width: 730px;
   margin: 0 auto;
