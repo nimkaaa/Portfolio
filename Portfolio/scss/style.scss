@@ -266,7 +266,7 @@ footer {
          line-height: 1.5;
 		}
 }
-// ==================Tech Stack Section====================
+// ==================Skills Section====================
 
 .skills {
    margin: 0 0 300px 0;
@@ -443,7 +443,7 @@ footer {
 .achievements {
    text-align: center;
    padding: 180px 0 0 0;
-   margin: 0 0 120px 0;
+   margin: 0 0 100px 0;
    height: 800px;
 		&__title {
          margin: 0 0 20px 0;
@@ -539,7 +539,7 @@ footer {
 // =================Contact Section====================
 
 .contacts {
-   padding: 90px 0 200px 0;
+   padding: 100px 0 100px 0;
    text-align: center;
    width: 730px;
    margin: 0 auto;
@@ -562,6 +562,88 @@ footer {
          background: rgb(146, 0, 0);
          width: 350px;
 		}
+
+      &__divider {
+         margin: 20px 0;
+         border: 1px solid #7c7c7c8a;
+      }
+
+      &__text {
+         text-align: left;
+         font-size: 16px;
+      }
+
+      &__form {
+         margin: 20px 0 0 0;
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-between;
+         gap: 15px;
+      }
+
+		&__name {
+         width: 48%;
+         height: 40px;
+         border-radius: 10px;
+         border: 2px solid #7c7c7c8a;
+         background: #131313;
+         padding: 0 10px;
+         font-size: 16px;
+         transition: border 0.2s ease;
+		}
+
+      &__name:focus {
+         border: 2px solid #fff;
+      }
+
+		&__email {
+         width: 48%;
+         height: 40px;
+         border-radius: 10px;
+         border: 2px solid #7c7c7c8a;
+         background: #131313;
+         padding: 0 10px;
+         font-size: 16px;
+         transition: border 0.2s ease;
+		}
+
+      &__email:focus {
+         border: 2px solid #fff;
+      }
+
+		&__message {
+         width: 100%;
+         height: 100px;
+         border-radius: 10px;
+         border: 2px solid #7c7c7c8a;
+         background: #131313;
+         padding: 5px 10px;
+         font-size: 16px;
+         transition: border 0.2s ease;
+		}
+
+      &__message:focus {
+         border: 2px solid #fff;
+      }
+
+		&__button {
+         width: 100%;
+         height: 40px;
+         border-radius: 10px;
+         border: 2px solid #7c7c7c8a;
+         background: #131313;
+         padding: 5px 10px;
+         font-size: 16px;
+         transition: background 0.4s ease;
+		}
+
+      &__button:hover {
+         background-color: #272727;
+      }
+
+      &__button:active {
+         background-color: #3a3a3a;
+      }
 }
 
 .gmail-item {

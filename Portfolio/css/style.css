@@ -494,7 +494,7 @@ footer {
 .achievements {
   text-align: center;
   padding: 180px 0 0 0;
-  margin: 0 0 120px 0;
+  margin: 0 0 100px 0;
   height: 800px;
 }
 .achievements__title {
@@ -588,7 +588,7 @@ footer {
 }
 
 .contacts {
-  padding: 90px 0 200px 0;
+  padding: 100px 0 100px 0;
   text-align: center;
   width: 730px;
   margin: 0 auto;
@@ -614,6 +614,85 @@ footer {
   border: 1px solid rgb(43, 43, 43);
   background: rgb(146, 0, 0);
   width: 350px;
+}
+.contacts__divider {
+  margin: 20px 0;
+  border: 1px solid rgba(124, 124, 124, 0.5411764706);
+}
+.contacts__text {
+  text-align: left;
+  font-size: 16px;
+}
+.contacts__form {
+  margin: 20px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 15px;
+}
+.contacts__name {
+  width: 48%;
+  height: 40px;
+  border-radius: 10px;
+  border: 2px solid rgba(124, 124, 124, 0.5411764706);
+  background: #131313;
+  padding: 0 10px;
+  font-size: 16px;
+  -webkit-transition: border 0.2s ease;
+  transition: border 0.2s ease;
+}
+.contacts__name:focus {
+  border: 2px solid #fff;
+}
+.contacts__email {
+  width: 48%;
+  height: 40px;
+  border-radius: 10px;
+  border: 2px solid rgba(124, 124, 124, 0.5411764706);
+  background: #131313;
+  padding: 0 10px;
+  font-size: 16px;
+  -webkit-transition: border 0.2s ease;
+  transition: border 0.2s ease;
+}
+.contacts__email:focus {
+  border: 2px solid #fff;
+}
+.contacts__message {
+  width: 100%;
+  height: 100px;
+  border-radius: 10px;
+  border: 2px solid rgba(124, 124, 124, 0.5411764706);
+  background: #131313;
+  padding: 5px 10px;
+  font-size: 16px;
+  -webkit-transition: border 0.2s ease;
+  transition: border 0.2s ease;
+}
+.contacts__message:focus {
+  border: 2px solid #fff;
+}
+.contacts__button {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  border: 2px solid rgba(124, 124, 124, 0.5411764706);
+  background: #131313;
+  padding: 5px 10px;
+  font-size: 16px;
+  -webkit-transition: background 0.4s ease;
+  transition: background 0.4s ease;
+}
+.contacts__button:hover {
+  background-color: #272727;
+}
+.contacts__button:active {
+  background-color: #3a3a3a;
 }
 
 .gmail-item {
