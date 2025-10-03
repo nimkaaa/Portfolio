@@ -6,4 +6,4 @@ Here you can find the link to my portfolio
 
 <br>
 
-The link - 
+The link - https://portfolionikitavasylets.netlify.app/
